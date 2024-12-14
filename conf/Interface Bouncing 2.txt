@@ -1,0 +1,15 @@
+[Interface]
+# Bouncing = 2
+# NetShield = 2
+# Moderate NAT = off
+# NAT-PMP (Port Forwarding) = off
+# VPN Accelerator = on
+PrivateKey = IKHhvdl024RqvV1KNUKxdLWRby6JuNOAGgjSyxPfBmQ=
+Address = 10.2.0.2/32
+DNS = 10.2.0.1
+
+[Peer]
+# SG#61
+PublicKey = gD6UL2faQ1a7DhQHhDPPa8IGdS3NShbYOwQhk9WCGXY=
+AllowedIPs = 0.0.0.0/0
+Endpoint = 103.107.199.210:51820
